@@ -1,4 +1,5 @@
 Summary:	GNU Project's replacement for SCCS
+Summary(pl):	Pochodz±cy z projektu GNU zamiennik SCCS
 Name:		CSSC
 Version:	0.15alpha.pl0
 Release:	1
@@ -6,8 +7,8 @@ License:	GPL
 Group:		Development/Version Control
 Source0:	http://dl.sourceforge.net/cssc/%{name}-%{version}.tar.gz
 URL:		http://cssc.sourceforge.net/
-BuildRequires:	texinfo
 BuildRequires:	libstdc++-devel
+BuildRequires:	texinfo
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -21,12 +22,25 @@ projects, but these days is less popular, particularly for projects
 involving large numbers of files. A fair amount of old software is
 still in SCCS form, and CSSC is designed to retrieve that software.
 
+%description -l pl
+CSSC to pochodz±cy z projektu GNU zamiennik SCCS. SCCS to w³asno¶ciowy
+zestaw narzêdzi udostêpnianych z wiêkszo¶ci± komercyjnych wersji
+Uniksa. Celem CSSC jest dostarczenie narzêdzi dzia³aj±cych podobnie do
+SCCS, których mo¿na u¿ywaæ na wolnodostêpnych wersjach Uniksa. SCCS
+by³ jedyn± wa¿niejsz± form± kontroli kodu ¼ród³owego na platformach
+uniksowych przez wiele lat, do czasu wej¶cia RCS. SCCS by³ efektywny
+dla ma³ych projektów, ale teraz jest mniej popularny, szczególnie dla
+projektów zawieraj±cych du¿± liczbê plików. Znaczna czê¶æ starego
+oprogramowania jest nadal w postaci SCCS, a CSSC stworzono w celu
+odzyskania tego oprogramowania.
+
 %prep
 %setup -q
 
 %build
 %configure \
-	--enable-binary \
+	--enable-binary
+
 %{__make}
 
 %install
