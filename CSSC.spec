@@ -7,7 +7,6 @@ License:	GPL
 Group:		Development/Version Control
 Source0:	http://dl.sourceforge.net/cssc/%{name}-%{version}.tar.gz
 # Source0-md5:	7cba27f03f07ee9d0fb513aea3b8e3e6
-# Source0-size:	695992
 URL:		http://cssc.sourceforge.net/
 BuildRequires:	libstdc++-devel
 BuildRequires:	texinfo
