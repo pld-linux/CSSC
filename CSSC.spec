@@ -1,12 +1,12 @@
 Summary:	GNU Project's replacement for SCCS
 Summary(pl):	Pochodz±cy z projektu GNU zamiennik SCCS
 Name:		CSSC
-Version:	1.00
+Version:	1.0.1
 Release:	1
 License:	GPL
 Group:		Development/Version Control
 Source0:	http://dl.sourceforge.net/cssc/%{name}-%{version}.tar.gz
-# Source0-md5:	7cba27f03f07ee9d0fb513aea3b8e3e6
+# Source0-md5:	5e1ebff620aea1295ac5de906d0dc279
 URL:		http://cssc.sourceforge.net/
 BuildRequires:	libstdc++-devel
 BuildRequires:	texinfo
