@@ -1,5 +1,5 @@
 Summary:	GNU Project's replacement for SCCS
-Summary(pl.UTF-8):   Pochodzący z projektu GNU zamiennik SCCS
+Summary(pl.UTF-8):	Pochodzący z projektu GNU zamiennik SCCS
 Name:		CSSC
 Version:	1.0.1
 Release:	1
