@@ -1,5 +1,5 @@
 Summary:	GNU Project's replacement for SCCS
-Summary(pl):	Pochodz±cy z projektu GNU zamiennik SCCS
+Summary(pl.UTF-8):   PochodzÄ…cy z projektu GNU zamiennik SCCS
 Name:		CSSC
 Version:	1.0.1
 Release:	1
@@ -23,15 +23,15 @@ projects, but these days is less popular, particularly for projects
 involving large numbers of files. A fair amount of old software is
 still in SCCS form, and CSSC is designed to retrieve that software.
 
-%description -l pl
-CSSC to pochodz±cy z projektu GNU zamiennik SCCS. SCCS to w³asno¶ciowy
-zestaw narzêdzi udostêpnianych z wiêkszo¶ci± komercyjnych wersji
-Uniksa. Celem CSSC jest dostarczenie narzêdzi dzia³aj±cych podobnie do
-SCCS, których mo¿na u¿ywaæ na wolnodostêpnych wersjach Uniksa. SCCS
-by³ jedyn± wa¿niejsz± form± kontroli kodu ¼ród³owego na platformach
-uniksowych przez wiele lat, do czasu wej¶cia RCS. SCCS by³ efektywny
-dla ma³ych projektów, ale teraz jest mniej popularny, szczególnie dla
-projektów zawieraj±cych du¿± liczbê plików. Znaczna czê¶æ starego
+%description -l pl.UTF-8
+CSSC to pochodzÄ…cy z projektu GNU zamiennik SCCS. SCCS to wÅ‚asnoÅ›ciowy
+zestaw narzÄ™dzi udostÄ™pnianych z wiÄ™kszoÅ›ciÄ… komercyjnych wersji
+Uniksa. Celem CSSC jest dostarczenie narzÄ™dzi dziaÅ‚ajÄ…cych podobnie do
+SCCS, ktÃ³rych moÅ¼na uÅ¼ywaÄ‡ na wolnodostÄ™pnych wersjach Uniksa. SCCS
+byÅ‚ jedynÄ… waÅ¼niejszÄ… formÄ… kontroli kodu ÅºrÃ³dÅ‚owego na platformach
+uniksowych przez wiele lat, do czasu wejÅ›cia RCS. SCCS byÅ‚ efektywny
+dla maÅ‚ych projektÃ³w, ale teraz jest mniej popularny, szczegÃ³lnie dla
+projektÃ³w zawierajÄ…cych duÅ¼Ä… liczbÄ™ plikÃ³w. Znaczna czÄ™Å›Ä‡ starego
 oprogramowania jest nadal w postaci SCCS, a CSSC stworzono w celu
 odzyskania tego oprogramowania.
 
